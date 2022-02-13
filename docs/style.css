@@ -1,4 +1,20 @@
-h1{
 
-    color: blueviolet;
+body{
+    background-image: url("background_image.png");
+    background-size: cover;
 }
+
+.btn-dark{
+    border-radius: 30px;
+    background-color: #030649;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#description{
+
+    background-color: rgba(red, green, blue, 0.0);
+    text-align: center;
+}
+
