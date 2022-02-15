@@ -16,5 +16,12 @@ body{
 
     background-color: rgba(red, green, blue, 0.0);
     text-align: center;
+    margin-top: 2%;
+}
+
+#col1, #col2, #col3{
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: #000 2px solid;
 }
 
