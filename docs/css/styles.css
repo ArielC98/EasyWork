@@ -1,5 +1,5 @@
 body{
-    background-image: url("/docs/img/fondo.png");
+    background-image: url("/img/fondo.png");
     background-size: cover;
 }
 
@@ -369,8 +369,11 @@ body{
     border-radius: 30px;
     margin-top: 10px;
 }
+<<<<<<< HEAD
 
 #link-crear {
     color: #fff;
     text-decoration: none;
 }
+=======
+>>>>>>> ee17b6eb003f43c9797cbc0172f13a3a4d1f89d7
