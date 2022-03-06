@@ -369,3 +369,8 @@ body{
     border-radius: 30px;
     margin-top: 10px;
 }
+
+#link-crear {
+    color: #fff;
+    text-decoration: none;
+}
