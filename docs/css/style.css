@@ -1,0 +1,19 @@
+body{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+}
+
+.card-body.mt-4{
+    border-radius: 30px;
+    border: 3px solid black;
+    min-width: 10rem;
+
+}
+
+.btn.btn-primary{
+    background-color: #030649;
+}
+
+#panel{
+    background-color: red;
+}

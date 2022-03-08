@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style3.css">
+</head>
+
+<body>
+  <div>
+    <h1 style="color: #030649; margin-bottom: 40px;">Selecciona el tipo de trabajo que deseas</h1>
+  </div>
+  <div class="tipoTrabajo">
+    <div>
+      <img class="img" src="./img/JobLiviano.png" alt="JobLiviano">
+      <button onclick="loadjson('JobLiviano.json')" class="btnAceptar">
+        <h1>Liviano</h1>
+      </button>
+    </div>
+    <div>
+      <img class="img" src="./img/JobMediano.png" alt="JobMediano">
+      <button onclick="loadjson('JobMediano.json')" class="btnAceptar">
+        <h1>Medio</h1>
+      </button>
+    </div>
+    <div>
+      <img class="img" src="./img/JobPesado.png" alt="JobPesado">
+      <button onclick="loadjson('JobPesado.json')" class="btnAceptar">
+        <h1>Pesado</h1>
+      </button>
+    </div>
+  </div>
+</body>

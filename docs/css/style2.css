@@ -1,0 +1,394 @@
+body{
+    font-family: 'Candara', Candara;
+    margin: 0;
+    padding: 0;
+    background: #030649 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.fond {
+    position: absolute;
+    width: 1319px;
+    height: 515px;
+    left: 24px;
+    top: 230px;
+
+    /* color_secundario */
+
+    background: #7872DA;
+    /* color_principal */
+
+    border: 5px solid #030649;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-top: none ;
+    border: 12px  solid #C4C4C4;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 15px;
+    display: flex;
+    margin-right: auto;
+}
+
+#img1 {
+    position: absolute;
+    width: 381px;
+    height: 127px;
+    left: 24px;
+    top: 5px;
+
+
+}
+#rel{
+    position: absolute;
+    left: 550px;
+    
+    
+}
+.clockdate-wrapper {
+    background-color: white;
+    height: 63px;
+    width: 300px;
+    top: 24px;
+    text-align:center;
+    border-radius:16px;
+}
+#clock{
+    background-color:white;
+    font-family: "Century Gothic", CenturyGothic;
+    font-size:30px;
+    margin-top:5%;
+    text-shadow:0px 0px 1px #fff;
+    color:#030649;
+    border-radius:16px;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:20px;
+    position:relative;
+    margin-top:20%;
+    left:-2px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:14px;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic;
+    color:#030649;
+}
+#img2 {
+    position: absolute;
+    width: 127px;
+    height: 63px;
+    left: 1043px;
+    top: 31px;
+    cursor: pointer;
+}
+#img3 {
+    position: absolute;
+    width: 150px;
+    height: 75.32px;
+    left: 1192px;
+    top: 24px;
+}
+
+.button{
+    background: #C4C4C4;
+}
+
+#boton-donar{
+    position: absolute;
+    width: 415px;
+    height: 59px;
+    left: 28px;
+    top: 142px;
+    border-radius: 5px;
+    font-size: 39px;
+    font-weight: bold;
+    color: #030649;
+
+
+}
+#boton-buscar{
+    position: absolute;
+    width: 415px;
+    height: 59px;
+    left: 475px;
+    top: 142px;
+    border-radius: 5px;
+    font-size: 39px;
+    font-weight: bold;
+    color: #030649;
+
+}
+#boton-crear{
+    position: absolute;
+    width: 415px;
+    height: 59px;
+    left: 927px;
+    top: 142px;
+    border-radius: 5px;
+    font-size: 39px;
+    font-weight: bold;
+    color: #030649;
+    
+}
+
+input[type="text"],
+input[type="money"]{
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomT{
+    margin-top: 0px;
+    width: 55%;
+    display: block;
+    margin-right: auto;
+}
+
+.valorT{
+    margin-top: 0px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+}
+
+#ubiDes{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.ubi{
+    width: 30px;
+    height: 250px;
+    width: 40%;
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+}
+.data{
+    width: 43px;
+    height: 300px;
+    width: 40%;
+}
+#add {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subir {
+    width: 6%;
+    height: 6%;
+    margin-top: 40px;
+}
+
+h5 {
+    color: white;
+    font-family: "Century Gothic", CenturyGothic;
+    font-size: 24px;
+    align-self: center;
+    margin-top: 47px;
+    margin-left: -25%;
+}
+
+p{
+    font-size: 30px;
+    font-family: "Century Gothic", CenturyGothic;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    top: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card1 {
+    width: 468px;
+    height: 312px;
+    background: #030649;
+    padding: 20px 30px;
+    border-top: none ;
+    border-radius: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card2 {
+    width: 468px;
+    height: 312px;
+    background: #030649;
+    padding: 0px;
+    border-top: none ;
+    border-radius: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img4 {
+    height: 63px;
+    width: 126px;
+    margin-top: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.img5 {
+    height: 44px;
+    width: 60px;
+    margin-top: 15px;
+    display: block;
+    margin-right: auto;
+}
+
+.numCard{
+    font-size: 50%;
+    font-family: "Century Gothic", CenturyGothic;
+    height: 31px;
+    width: 382px;
+    border-radius: 3px;
+    margin-top: 15px;
+    display: block;
+    margin-right: auto;
+}
+
+.dataC{
+    display: flex;
+    justify-content: space-around;
+}
+#anio{
+    height: 70px;
+    width: 38px;
+    margin-top: 10px;
+    color: #C4C4C4;
+    display: block;
+    margin-right: auto;
+}
+#valida{
+    font-size: 12px;
+    margin-top: 25px;
+    color: #C4C4C4; 
+    display: block;
+    margin-left: auto;
+}
+.img9 {
+    height: 44px;
+    width: 20px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+}
+
+.dataCard{
+    font-size: 50%;
+    font-family: "Century Gothic", CenturyGothic;
+    height: 44px;
+    width: 74px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+}
+
+.nomtit{
+    height: 38px;
+    width: 190px;
+    margin-top: 10px;
+    font-family: "Century Gothic", CenturyGothic;
+    
+}
+
+.img6 {
+    height: 55px;
+    width: 468px;
+    margin-top: 20px;
+}
+.cvv{
+    padding: 20px 30px;
+    display: flex;
+    
+}
+
+.img7 {
+    height: 44px;
+    width: 60px;
+    margin-top: 20px;
+    
+}
+
+.img8 {
+    height: 34px;
+    width: 189px;
+    margin-top: 26px;
+    
+}
+.numCvv {
+    height: 27px;
+    width: 60px;
+    font-family: "Century Gothic", CenturyGothic;
+    margin-top: 28px;
+    border-radius: 0px;
+}
+
+#easy{
+    font-size: 29px;
+    margin-top: 18px;
+    color: #C4C4C4;
+    text-align: center;   
+}
+
+.solicitud{
+    border: none;
+    width: 25%;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    background: #030649;
+    border-radius: 20px;
+}
+
+#mensaje{
+    font-size: 40px;
+    color: white;
+    text-align: center;   
+}
+
+#conf{
+    font-size: 35px;
+    margin-top: 40px;
+    color: #030649;
+    text-align: center;
+}
+
+.continuar{
+    border: none;
+    width: 25%;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    background: #030649;
+    margin-top: 40px;
+    border-radius: 20px;
+}

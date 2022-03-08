@@ -1,0 +1,68 @@
+{
+   "1":{
+      "titulo":"Limpiar un Parque",
+      "sector":"Guamaní",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":10
+   },
+   "2":{
+      "titulo":"Distribuir volantes",
+      "sector":"Villaflora",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":20
+   },
+   "3":{
+      "titulo":"Conserje",
+      "sector":"La Colmena",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":20
+   },
+   "4":{
+      "titulo":"Lavar automóvil",
+      "sector":"La Carolina",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":15
+   },
+   "5":{
+      "titulo":"Limpiar una casa",
+      "sector":"Solanda",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":15
+   },
+   "6":{
+      "titulo":"Realizar un dibujo",
+      "sector":"Cumbaya",
+      "direccion":"Av. 10 de Agosto y Patria",
+      "contacto":"Juan Pérez",
+      "telefono":"0998765143",
+      "limite":"12 horas",
+      "img":"./img/Lassy.png",
+      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "pago":10
+   }
+}

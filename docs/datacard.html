@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style2.css">
+</head>
+
+<body>
+  <p>Ingresa los datos de tu tarjeta</p>
+  <div class="cards">
+    <div class="card1">
+      <img src="./img/easywork_logo 1.png" alt="Image 4" class="img4">
+      <img src="./img/lol.png" alt="Image 5" class="img5">
+      <input class="numCard" type="text" name="numeroTarjeta" value="" placeholder="Ingrese el número de la tarjeta">
+      <input class="nomtit" type="text" name="nombreTitular" value="" placeholder="Nombre del titular">
+      <div class="dataC">
+        <h1 id="anio">2022</h1>
+        <h1 id="valida">VÁLIDA HASTA</h1>
+        <input class="dataCard" type="text" name="mesTarjeta" value="" placeholder="Mes">
+        <img src="./img/lin.png" alt="Image 9" class="img9">
+        <input class="dataCard" type="text" name="añoTarjeta" value="" placeholder="Año">
+      </div>
+    </div>
+    <div class="card2">
+      <img src="./img/cod.png" alt="Image 6" class="img6">
+      <div class="cvv">
+        <img src="./img/av.png" alt="Image 7" class="img7">
+        <img src="./img/barra.png" alt="Image 8" class="img8">
+        <input class="numCvv" type="text" name="numeroCvv" value="" placeholder="CVV">
+      </div>
+      <div>
+        <h1 id="easy">EASY WORK</h1>
+      </div>
+    </div>
+  </div>
+  <button onclick="cargar('confirm.html');" class="continuar" type="submit">Enviar solicitud</button>
+</body>
+
+</html>
