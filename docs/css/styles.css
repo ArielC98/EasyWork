@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/fondo.png");
+    background-image: url("/docs/img/fondo.png");
     background-size: cover;
 }
 
@@ -79,12 +79,21 @@ body{
     height: 35px;
     border-radius: 20px;
     margin-top: 15px;
-    margin-right: 20px;
+    margin-right: 0px;
     background-color: var(--principal);
     color: #fff;
     font-family: var(--fuente);
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.spc {
+    width: 140px;
+}
+
+#spc2 {
+    width: 130px;
 }
 
 #texto-derechos {
@@ -369,11 +378,8 @@ body{
     border-radius: 30px;
     margin-top: 10px;
 }
-<<<<<<< HEAD
 
-#link-crear {
+.link {
     color: #fff;
     text-decoration: none;
 }
-=======
->>>>>>> ee17b6eb003f43c9797cbc0172f13a3a4d1f89d7
