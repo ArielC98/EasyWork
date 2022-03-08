@@ -5,9 +5,9 @@
       "direccion":"Av. 10 de Agosto y Patria",
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
-      "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "limite":"120 horas",
+      "img":"./img/podar.png",
+      "descripcion":"Requiero alguien con 15 años de experiencia en la poda de arboles, para dar forma de dinosaurio a un par de arbustos.",
       "pago":30
    },
    "2":{
@@ -17,8 +17,8 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/cargadorladrillos.png",
+      "descripcion":"Se solicita cargador profesional de ladrillos que cargue al menos 5 ladrillos por segundo.",
       "pago":25
    },
    "3":{
@@ -28,8 +28,8 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/pintarcasa.png",
+      "descripcion":"Si trae a su familia pintan más rápido, pero se les paga lo mismo.",
       "pago":40
    },
    "4":{
@@ -39,30 +39,19 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/envio.png",
+      "descripcion":"N/A.",
       "pago":30
    },
    "5":{
-      "titulo":"Cuidar de un adulto mayor",
-      "sector":"Cotocollao",
-      "direccion":"Av. 10 de Agosto y Patria",
-      "contacto":"Juan Pérez",
-      "telefono":"0998765143",
-      "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
-      "pago":60
-   },
-   "6":{
       "titulo":"Mascota para publicidad",
       "sector":"Vaca de Castro",
       "direccion":"Av. 10 de Agosto y Patria",
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/mascotapublicidad.png",
+      "descripcion":"No es el mismo disfraz de la imagen, pero si es de paloma.",
       "pago":30
    }
 }

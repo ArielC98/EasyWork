@@ -5,9 +5,9 @@
       "direccion":"Av. 10 de Agosto y Patria",
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
-      "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "limite":"24 horas",
+      "img":"./img/patio.png",
+      "descripcion":"Se requiere una persona para limpieza de un parque con muchas hojas.",
       "pago":10
    },
    "2":{
@@ -16,9 +16,9 @@
       "direccion":"Av. 10 de Agosto y Patria",
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
-      "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "limite":"48 horas",
+      "img":"./img/volanteo.png",
+      "descripcion":"8 horas por 3 días, a los alrededores de local nuevo por inauguración.",
       "pago":20
    },
    "3":{
@@ -28,19 +28,19 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/conserje.png",
+      "descripcion":"Se requiere de una persona proactiva y con energía para que se encargue de todo, desde limpiar y cocinarle a todos, hasta construir un par de pisos más el solo en el edificio de 80 pisos.",
       "pago":20
    },
    "4":{
-      "titulo":"Lavar automóvil",
+      "titulo":"Lavar batimóvil",
       "sector":"La Carolina",
       "direccion":"Av. 10 de Agosto y Patria",
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/lavarautomovil.png",
+      "descripcion":"Soy batman.",
       "pago":15
    },
    "5":{
@@ -50,8 +50,8 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/limpiarcasa.png",
+      "descripcion":"Estoy planeando una fiesta y quiero contratar a alguien que limpie el desastre al día siguiente, solo gente seria.",
       "pago":15
    },
    "6":{
@@ -61,8 +61,8 @@
       "contacto":"Juan Pérez",
       "telefono":"0998765143",
       "limite":"12 horas",
-      "img":"./img/Lassy.png",
-      "descripcion":"Su nombre es Lassy y es una chihuahua de 2 años de edad, es muy cariñosa con todas las personas y le gusta jugar mucho, busco a una persona que pueda llevarla de paseo por el parque alrededor de 3 a 4 horas, solamente requiero una foto donde se la pueda ver corriendo o haciendo alguna actividad.",
+      "img":"./img/dibujar.png",
+      "descripcion":"Quiero un caricaturista para realizar un par de bocetos para un deber de la universidad.",
       "pago":10
    }
 }

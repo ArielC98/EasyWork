@@ -14,12 +14,7 @@ body{
     height: 515px;
     left: 24px;
     top: 230px;
-
-    /* color_secundario */
-
     background: #7872DA;
-    /* color_principal */
-
     border: 5px solid #030649;
     box-sizing: border-box;
     border-radius: 20px;
@@ -30,76 +25,6 @@ body{
 
 *{
     box-sizing: border-box;
-}
-
-
-.container{
-    padding: 15px;
-    display: flex;
-    margin-right: auto;
-}
-
-#img1 {
-    position: absolute;
-    width: 381px;
-    height: 127px;
-    left: 24px;
-    top: 5px;
-
-
-}
-#rel{
-    position: absolute;
-    left: 550px;
-    
-    
-}
-.clockdate-wrapper {
-    background-color: white;
-    height: 63px;
-    width: 300px;
-    top: 24px;
-    text-align:center;
-    border-radius:16px;
-}
-#clock{
-    background-color:white;
-    font-family: "Century Gothic", CenturyGothic;
-    font-size:30px;
-    margin-top:5%;
-    text-shadow:0px 0px 1px #fff;
-    color:#030649;
-    border-radius:16px;
-}
-#clock span {
-    color:#888;
-    text-shadow:0px 0px 1px #333;
-    font-size:20px;
-    position:relative;
-    margin-top:20%;
-    left:-2px;
-}
-#date {
-    letter-spacing:10px;
-    font-size:14px;
-    font-weight: bold;
-    font-family: "Century Gothic", CenturyGothic;
-    color:#030649;
-}
-#img2 {
-    position: absolute;
-    width: 127px;
-    height: 63px;
-    left: 1043px;
-    top: 31px;
-    cursor: pointer;
-}
-#img3 {
-    position: absolute;
-    width: 150px;
-    height: 75.32px;
-    left: 1192px;
-    top: 24px;
 }
 
 .button{
@@ -171,18 +96,15 @@ input[type="money"]{
     margin-left: auto;
 }
 
-#ubiDes{
+#ubiDes {
     padding: 15px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
-.ubi{
-    width: 30px;
+.ubi {
     height: 250px;
-    width: 40%;
-    margin-top: 20px;
-    display: block;
-    margin-right: auto;
+    padding-right: 60px;
+    margin: auto;
 }
 .data{
     width: 43px;
@@ -190,23 +112,19 @@ input[type="money"]{
     width: 40%;
 }
 #add {
+    padding: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .subir {
-    width: 6%;
-    height: 6%;
-    margin-top: 40px;
+    height: 50px;
 }
 
 h5 {
     color: white;
     font-family: "Century Gothic", CenturyGothic;
     font-size: 24px;
-    align-self: center;
-    margin-top: 47px;
-    margin-left: -25%;
 }
 
 p{
@@ -219,11 +137,10 @@ p{
     top: auto;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
-    
-    
+    padding-bottom: 40px;
 }
 
 .card1 {
@@ -380,15 +297,20 @@ p{
     margin-top: 40px;
     color: #030649;
     text-align: center;
+    padding-bottom: 40px;
 }
 
-.continuar{
+.continuar {
     border: none;
     width: 25%;
     padding: 15px 20px;
     color: white;
     font-size: 20px;
     background: #030649;
-    margin-top: 40px;
     border-radius: 20px;
+    height: fit-content;
+}
+
+.w-50 {
+    margin: 40px 0px 40px 0px;
 }

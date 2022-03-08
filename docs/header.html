@@ -11,30 +11,33 @@
 </head>
 
 <body>
-  <div class="container">
-    <img src="./img/nom.png" alt="Image 1" id="img1" class="cont">
-    <div id="rel" class="cont">
-      <div class="clockdate-wrapper">
+  <div class="contenedor">
+    <img src="./img/nom.png" alt="Image 1" id="img1">
+    <div id="rel">
+      <div class="clockdate">
         <div id="clock"></div>
         <div id="date"></div>
       </div>
     </div>
-    <img src="./img/conf.png" alt="Image 2" id="img2" class="cont">
-    <img src="./img/easywork_logo 1.png" alt="Image 3" id="img3" class="cont">
+    <img src="./img/conf.png" alt="Image 2" id="img2">
+    <img src="./img/easywork_logo 1.png" alt="Image 3" id="img3">
   </div>
   <div class="opciones">
     <a onclick="cargar('donar.html');">
+      <div class="union" id="unionDonar"></div>
       <button class="btn-ew">
         Donar
       </button>
     </a>
     <a onclick="cargar('BuscarTrabajo.html');">
+      <div class="union" id="unionBuscar"></div>
       <button class="btn-ew">
         Buscar trabajo
       </button>
     </a>
     <a onclick="cargar('crearT.html');">
-      <button class="btn-ew" id="btn-3">
+      <div class="union" id="unionCrear"></div>
+      <button class="btn-ew btn-3">
         Crear trabajo
       </button>
     </a>

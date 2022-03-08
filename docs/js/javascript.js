@@ -4,6 +4,23 @@ function cargar(url) {
     .then(html => {
       document.getElementById("main-containerjob").innerHTML = html;
     })
+  switch(url) {
+    case "donar.html":
+      document.getElementById("unionDonar").style.display = "block";
+      document.getElementById("unionBuscar").style.display = "none";
+      document.getElementById("unionCrear").style.display = "none";
+      break;
+    case "BuscarTrabajo.html":
+      document.getElementById("unionDonar").style.display = "none";
+      document.getElementById("unionBuscar").style.display = "block";
+      document.getElementById("unionCrear").style.display = "none";
+      break;
+    case "crearT.html":
+      document.getElementById("unionDonar").style.display = "none";
+      document.getElementById("unionBuscar").style.display = "none";
+      document.getElementById("unionCrear").style.display = "block";
+      break;
+  }
 }
 
 function header() {
@@ -22,11 +39,10 @@ function loadjson(jsonurl) {
       let div = document.createElement("div")
       div.classList.add("card-containerjob");
       for (id in data) {
-        dato = data[id];
-        let jobid = id;
         let table = document.createElement("table");
         table.style.cursor = "pointer";
-        table.addEventListener("click", () => confirmar(dato));
+        let dato = data[id];
+        table.addEventListener("click", function () {confirmar(dato)});
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         th.style.backgroundColor = "#030649";
@@ -75,7 +91,7 @@ function confirmar(dato) {
   div.append(img);
   div.append(div2);
   let botonAceptar = document.createElement("button");
-  botonAceptar.addEventListener("click", () => aceptar(dato));
+  botonAceptar.addEventListener("click", function () {aceptar(dato)});
   botonAceptar.classList.add("btnAceptar");
   let h1 = document.createElement("h1");
   h1.innerText = "Aceptar";

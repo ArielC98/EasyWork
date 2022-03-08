@@ -11,45 +11,33 @@ body{
   box-sizing: border-box;
 }
 
-.container{
+.contenedor {
   padding: 15px;
   display: flex;
-}
-
-.cont {
-  margin-right: 10px;
+  justify-content: space-around;
 }
 
 #img1 {
-  position: absolute;
+  position: relative;
   width: 381px;
   height: 127px;
-  left: 24px;
-  top: 5px;
 }
 
-#rel{
-  position: absolute;
-  left: 550px;
-}
-
-.clockdate-wrapper {
+.clockdate {
   background-color: white;
-  height: 63px;
   width: 300px;
-  top: 24px;
-  text-align:center;
-  border-radius:16px;
+  margin-top: 31px;
+  text-align: center;
+  border-radius: 16px;
 }
 
-#clock{
-  background-color:white;
+#clock {
+  background-color: white;
   font-family: "Century Gothic", CenturyGothic;
-  font-size:30px;
-  margin-top:5%;
-  text-shadow:0px 0px 1px #fff;
-  color:#030649;
-  border-radius:16px;
+  font-size: 30px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #030649;
+  border-radius: 16px;
 }
 
 #clock span {
@@ -70,48 +58,59 @@ body{
 }
 
 #img2 {
-  position: absolute;
+  position: relative;
   width: 127px;
   height: 63px;
-  left: 1043px;
-  top: 31px;
+  margin-top: 32px;
   cursor: pointer;
 }
 
 #img3 {
-  position: absolute;
+  position: relative;
   width: 150px;
   height: 75.32px;
-  left: 1192px;
-  top: 24px;
+  margin-top: 26px;
 }
 
 .opciones {
   display: flex;
-  margin-top: 130px;
   justify-content: center;
 }
 
 .btn-ew {
   width: 295px;
-  height: 57px;
-  text-decoration: none;
+  height: 60px;
   color: #030649;
-  text-align: center;
   background-color: #C4C4C4;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-right: 20px;
-  cursor: pointer;
   font-size: 30px;
   font-weight: bold;
+  border: 0;
 }
 
-#btn-3 {
+.union {
+  width: 295px;
+  height: 10px;
+  background-color: #C4C4C4;
+  position: absolute;
+  display: none;
+  top: 212px;
+}
+
+
+.btn-3 {
   margin-right: 0px;
 }
 
-.BuscarTrabajo{
-  margin: 40px;
+button.active.focus, button.active:focus,
+button.focus, button:active.focus, 
+button:active:focus, button:focus {
+  outline: none;
+}
+
+.BuscarTrabajo {
+  margin: 5px 40px 40px 40px;
   background-color: #C4C4C4;
   padding: 10px;
   border-radius: 10px;
@@ -123,22 +122,24 @@ body{
   padding: 40px;
 }
 
-.DetailJob{
-  margin-top: 30px;
-  color:white;
+.DetailJob {
+  color: white;
+  margin: 10px;
   background-color: #030649;
-  margin-left: 20px;
   border-radius: 10px;
-  margin-right: 20px;
+  height: 45px;
+  width: 200px;
+  left: 100px;
 }
 
-.ContentDetailJob{
-  margin-top: 30px;
-  color:black;
-  background-color:#C4C4C4;
-  margin-left: 20px;
+.ContentDetailJob {
+  color: black;
+  margin: 10px;
+  background-color: #C4C4C4;
   border-radius: 10px;
-  margin-right: 20px;
+  height: 45px;
+  width: 690px;
+  left: 360px;
 }
 
 .card-containerjob {
@@ -177,8 +178,8 @@ body{
 }
 
 .tipoTrabajo{
-  display:flex;
-  justify-content: center;    
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .img {
